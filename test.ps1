@@ -10,8 +10,6 @@ Write-Host ("Total Hosts w/ admin`$ share accessable: ["+($adminAvail | Measure-
 
 #$adminAvail = @()
 #$testHost = "" | Select "IP","DNSHostname"
-#$testHost.IP = "10.20.74.73"
-#$testHost.DNSHostname = "BDC-ASHLEY.laethem.local"
 #$adminAvail += $testHost
 
 $adminAvail | Foreach-Object {
